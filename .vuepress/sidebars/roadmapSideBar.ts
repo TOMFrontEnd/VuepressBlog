@@ -1,5 +1,6 @@
 export default [
   "",
+
   {
     title: "学习路线",
     collapsable: false,
@@ -16,4 +17,4 @@ export default [
       "Linux学习路线 by 程序员鱼皮.md",
     ],
   },
-];
+  ];

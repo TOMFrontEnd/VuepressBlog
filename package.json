@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev .",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
+    "docs:build": "vuepress build ."
   },
   "license": "MIT",
   "devDependencies": {
@@ -14,7 +14,6 @@
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-seo": "^0.1.4",
-    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-tags": "^1.0.2"
   },
   "dependencies": {
